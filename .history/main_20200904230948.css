@@ -8,6 +8,7 @@
 .wrapper{
     width: 900px;
     margin: 0 auto;
+    border: 1px solid black;
 }
 .content-header{
     background: #3a5795;
@@ -152,9 +153,6 @@ h3{
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 12px;
-}
-.middle-right a:last-child:hover{
-    text-decoration: underline;
 }
 
 /* FOOTER */

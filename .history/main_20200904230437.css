@@ -150,11 +150,8 @@ h3{
 }
 .middle-right p:last-child{
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 12px;
-}
-.middle-right a:last-child:hover{
-    text-decoration: underline;
 }
 
 /* FOOTER */
