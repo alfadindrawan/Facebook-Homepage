@@ -12,12 +12,12 @@
 .content-header{
     background: #3a5795;
     color: white;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 h1{
     float: left;
     padding-top: 10px;
-    font-size: 45px;
+    font-size: 40px;
 }
 .clearfix:after{
     clear: both;
@@ -40,12 +40,12 @@ h1{
     }
 .content-header input[type="submit"]{
     font-size: 12px;
-    padding: 4px;
+    padding: 2px;
     background-color: #5972a8;
     font-weight: bold;
     color: white;
     border: 1px solid black;
-    margin-top: 19px;
+    margin-top: 21px;
 }
 .group-form a{
     color: #9daccb;
@@ -65,21 +65,30 @@ h1{
 .content-middle .middle-left{
 float: left;
 width: 50%;
-margin-right: 7%;
+margin-right: 5%;
 }
 .content-middle .middle-right{
     float: left;
-    width: 43%;
+    width: 45%;
 }
 h2{
     margin-top: 50px;
     margin-bottom: 40px;
-    color: rgb(56, 77, 126);
+}
+.content-middle ul li{
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.content-middle ul li span{
+    list-style: none;
+    font-weight: normal;
+    margin-left: 10px;
+    color: grey;
 }
 h3{
     margin-top: 10px;
     font-size: 30px;
-    color: rgb(71, 71, 71);
 }
 .middle-right p:nth-child(2){
     color: grey;
@@ -91,11 +100,10 @@ h3{
     border: 1px solid grey ;
     padding: 10px;
     width: 100%;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 .middle-right select{
     margin-top: 5px;
-    margin-bottom: 15px;
 }
 .middle-right input.inline{
     float: left;
@@ -116,35 +124,43 @@ h3{
 .middle-right p:last-child a{
     text-decoration: none;
     color: blue;
+
 }
 #register_info a:hover{
     text-decoration: underline;
+    
 }
-.middle-right input[type="radio"]{
+.middle-right input [type=radio]{
+    margin-top: 15px;
     display: inline-block;
-    width: 60px;
-    }
-.middle-right input[type="submit"]{
-    width: 180px;
+    width: 30px;
+    margin-left: 0;
+}
+.middle-right label{
+    display: inline;
+}
+.middle-right input[type=submit]{
+    min-width: 194px;
     padding: 10px;
     text-align: center;
     color: white;
     margin-bottom: 10px;
     border-radius: 5px;
     margin-top: 10px;
-    border: 1px solid #3b6e22 #3b6e22 #2c5115;;
+    border: 1px solid rgb(61, 58, 58);
     font-weight: bold;
     font-size: 15px;
     background: linear-gradient(#67ae55, #578843);
     background-color: #69a74e;
     box-shadow: inset 0 1px 1px #a4e388;
+    border-color: #3b6e22 #3b6e22 #2c5115;
 }
 .middle-right form{
     border-bottom: 1px solid grey;
 }
 .middle-right p:last-child{
-    margin-top: 20px;
-    margin-bottom: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 12px;
 }
 .middle-right a:last-child:hover{

@@ -17,7 +17,7 @@
 h1{
     float: left;
     padding-top: 10px;
-    font-size: 45px;
+    font-size: 40px;
 }
 .clearfix:after{
     clear: both;
@@ -76,6 +76,17 @@ h2{
     margin-bottom: 40px;
     color: rgb(56, 77, 126);
 }
+/* .content-middle ul li{
+    list-style: none;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.content-middle ul li span{
+    list-style: none;
+    font-weight: normal;
+    margin-left: 10px;
+    color: grey;
+} */
 h3{
     margin-top: 10px;
     font-size: 30px;
@@ -144,7 +155,7 @@ h3{
 }
 .middle-right p:last-child{
     margin-top: 20px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     font-size: 12px;
 }
 .middle-right a:last-child:hover{
