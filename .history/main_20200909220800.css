@@ -37,7 +37,6 @@ h1{
 }
 .content-header input[type="checkbox"]{
     display: inline-block;
-    margin-top: 4px;
     }
 .content-header input[type="submit"]{
     font-size: 12px;
@@ -52,9 +51,6 @@ h1{
     color: #9daccb;
     text-decoration: none;
     font-size: 12px;
-}
-.group-form input[type="password"]{
-    margin-bottom: 4px;
 }
 .content-header label{
     font-size: 15px;
@@ -75,6 +71,11 @@ margin-right: 7%;
     float: left;
     width: 43%;
 }
+/* @media screen and (max-width: 500px){
+    .content-middle .middle-right{
+        width: 60%;
+    }
+} */
 h2{
     margin-top: 50px;
     margin-bottom: 40px;

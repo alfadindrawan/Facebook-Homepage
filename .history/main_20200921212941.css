@@ -36,8 +36,7 @@ h1{
     margin-left: 10px ;
 }
 .content-header input[type="checkbox"]{
-    display: inline-block;
-    margin-top: 4px;
+    display: block;
     }
 .content-header input[type="submit"]{
     font-size: 12px;
@@ -52,9 +51,6 @@ h1{
     color: #9daccb;
     text-decoration: none;
     font-size: 12px;
-}
-.group-form input[type="password"]{
-    margin-bottom: 4px;
 }
 .content-header label{
     font-size: 15px;

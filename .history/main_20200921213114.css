@@ -3,7 +3,7 @@
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 .wrapper{
     width: 1000px;
@@ -37,7 +37,6 @@ h1{
 }
 .content-header input[type="checkbox"]{
     display: inline-block;
-    margin-top: 4px;
     }
 .content-header input[type="submit"]{
     font-size: 12px;
@@ -52,9 +51,6 @@ h1{
     color: #9daccb;
     text-decoration: none;
     font-size: 12px;
-}
-.group-form input[type="password"]{
-    margin-bottom: 4px;
 }
 .content-header label{
     font-size: 15px;
