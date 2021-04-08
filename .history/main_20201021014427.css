@@ -12,12 +12,12 @@
 .content-header{
     background: #3a5795;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
 }
 h1{
     float: left;
     padding-top: 10px;
-    font-size: 40px;
+    font-size: 45px;
 }
 .clearfix:after{
     clear: both;
@@ -35,10 +35,11 @@ h1{
     float: left;
     margin-left: 10px ;
 }
-.content-header input[type="checkbox"]{
+.content-header input[type=checkbox]{
     display: inline-block;
+    margin-top: 4px;
     }
-.content-header input[type="submit"]{
+.content-header input[type=submit]{
     font-size: 12px;
     padding: 4px;
     background-color: #5972a8;
@@ -51,6 +52,9 @@ h1{
     color: #9daccb;
     text-decoration: none;
     font-size: 12px;
+}
+.group-form input[type=password]{
+    margin-bottom: 4px;
 }
 .content-header label{
     font-size: 15px;
@@ -74,21 +78,12 @@ margin-right: 7%;
 h2{
     margin-top: 50px;
     margin-bottom: 40px;
+    color: rgb(56, 77, 126);
 }
-/* .content-middle ul li{
-    list-style: none;
-    font-weight: bold;
-    margin-bottom: 30px;
-}
-.content-middle ul li span{
-    list-style: none;
-    font-weight: normal;
-    margin-left: 10px;
-    color: grey;
-} */
 h3{
     margin-top: 10px;
     font-size: 30px;
+    color: rgb(71, 71, 71);
 }
 .middle-right p:nth-child(2){
     color: grey;
@@ -104,6 +99,7 @@ h3{
 }
 .middle-right select{
     margin-top: 5px;
+    margin-bottom: 15px;
 }
 .middle-right input.inline{
     float: left;
@@ -124,19 +120,14 @@ h3{
 .middle-right p:last-child a{
     text-decoration: none;
     color: blue;
-
 }
 #register_info a:hover{
     text-decoration: underline;
-    
 }
-/* .middle-right input [type=radio]{
+.middle-right input[type=radio]{
     display: inline-block;
-    width: 30px;
-} */
-/* .middle-right .radio_1{
-    display: inline-block;
-} */
+    width: 60px;
+    }
 .middle-right input[type=submit]{
     width: 180px;
     padding: 10px;
@@ -156,8 +147,8 @@ h3{
     border-bottom: 1px solid grey;
 }
 .middle-right p:last-child{
-    margin-top: 10px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 35px;
     font-size: 12px;
 }
 .middle-right a:last-child:hover{
